@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background: cyan;
+    margin: 10vh;
+}
+
+#main h2{
+    text-align: center;
+    margin-bottom: 10vh;
+    text-shadow:0 5px 5px rgba(0,0,0,0.5);
+    animation: mymove 3s ;
+}
+
+#myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+
+
+input{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    min-width: 25vw;
+}
+
+.error{
+    display: block;
+    text-align: left;
+    color: red;
+}
+
+ button[type="submit"]{
+    background: purple;
+    padding: 10px 10px;
+    font-size: 1.5rem;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+} 
