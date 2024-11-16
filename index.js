@@ -71,5 +71,10 @@ function validateForm(e){
     // submit when all validations passed
     if(isValid){
         alert("form submitted");
+        nameInput.value ="";
+        emailInput.value ="";
+        mobileInput.value ="";
+        passwordInput.value="";
+        cpwInput.value ="";
     }
 }
